@@ -74,8 +74,41 @@ body {
 
 .header_section {
   background-color: #14213D;
-  padding: 15px 0;
+  padding: 30px 0;
   font-family: "Roboto", sans-serif;
+}
+
+.cabecalhoS{
+  background-color:#14213D;
+  float:left;
+  width: 300px;
+  height: 100%;
+  
+}
+naver{
+  padding:10px 0px 10px 0px;
+}
+
+.naver > a{
+  padding:0px 20px 0px 20px;
+  font-size: 15px;
+  display: block;
+  align-items: center;
+  color:white;
+  text-transform: uppercase;
+
+}
+
+.naver > a:hover{
+  text-decoration: underline;
+  text-decoration-color:#FCA311;
+  color:white;
+}
+
+.titulo{
+  margin-bottom: 40px;
+  text-transform: uppercase;
+
 }
 
 .header_section .container-fluid {
