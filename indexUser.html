@@ -29,15 +29,19 @@
 </head>
 
 <body>
+  <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
+           <a class="navbar-brand brand-logo" href="index.html">
+            <img src="images/logo.svg" alt="logo" />
+          </a>
+          <!-- <a class="navbar-brand" href="index.html">
             <span>
               Oficina G3
             </span>
-          </a>
+          </a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -67,16 +71,234 @@
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contato</a>
                 </li>
+              
               </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
+            <a class="btn btn-primary" href="entrar.html" role="button">Entrar</a>
             </div>
           </div>
         </nav>
       </div>
     </header>
-  
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section ">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="detail-box">
+                <h1>
+
+              Mecânica Preventiva <br>
+                  e Corretiva
+                  
+                  
+                </h1>
+                <!-- <p>
+  A oficina que oferece as melhores condições para você ter confiança no trabalho realizado em seu veículo, com equipamentos modernos e profissionais altamente qualificados.
+                </p> -->
+                <div>
+                  <a href="">
+                    Agendamentos
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="detail-box">
+                <h1>
+                  Serviços Especializado
+                </h1>
+                <!-- <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                </p> -->
+                <div>
+                  <a href="">
+                    Confira
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- find section -->
+  <!--<section class="find_section">
+    <div class="container">
+      <form action="">
+        <div class=" form-row">
+          <div class="col-lg-3">
+            <label for="carPark">Select Car Park</label>
+            <select name="" id="carPark" class="form-control">
+              <option value="">First Floor</option>
+              <option value="">Option 1</option>
+              <option value="">Option 2</option>
+            </select>
+          </div>
+          <div class="col-lg-3">
+            <label for="parkingName">Your Name Here</label>
+            <input type="text" class="form-control" placeholder="jack frod " id="parkingName">
+          </div>
+
+          <div class="col-lg-3">
+            <label for="parkingNumber">Your Phone Number</label>
+            <input type="text" class="form-control" placeholder="+01 1234567890 " id="parkingNumber">
+          </div>
+          <div class="col-lg-3">
+            <div class="btn-container">
+              <button type="submit" class="">
+                Request a call
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </section> -->
+
+  <!-- end find section -->
+
+  <!-- feature section -->
+  <section class="feature_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/money.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Menor Custo
+              </h5>
+              <p>
+               Aqui você gasta pouco com umas das melhores oficina da cidade.
+              
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/clock.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+               Agilidade
+              </h5>
+              <p>
+              Aqui fazemos o melhor serviço no menor tempo
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/man.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Eficiência
+              </h5>
+              <p>
+              Aqui nosso foco é fazer um otimo trabalho 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end feature section -->
+
+  <!-- why section -->
+  <section class="why_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Porque Nos Escolher
+              </h2>
+            </div>
+
+            <p>
+ Nós oferecemos serviços de alta qualidade, utilizando ferramentas modernas e equipamentos de última geração para garantir um trabalho preciso e eficiente. Além disso, contamos com uma equipe de profissionais altamente capacitados e experientes, que estão sempre prontos para atendê-lo da melhor maneira possível. Oferecemos um atendimento personalizado e transparente, explicando detalhadamente todas as etapas do serviço e informando sobre os preços de forma clara e justa. Por essas razões, escolher a nossa oficina é a escolha certa para quem busca qualidade e confiabilidade em serviços automotivos.
+            </p>
+            <div>
+              <a href="">
+               Ler Mais
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="img-box">
+                  <img src="images/ferramentas.jpg" alt="">
+                  <a href="">
+                    <img src="images/link.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="img-box">
+                  <img src="images/tec.jpg" alt="">
+                  <a href="">
+                    <img src="images/link.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="img-box">
+                  <img src="images/acordo.jpg" alt="">
+                  <a href="">
+                    <img src="images/link.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="img-box">
+                  <img src="images/R (2).jpg" alt="">
+                  <a href="">
+                    <img src="images/link.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- end why section -->
 
@@ -85,13 +307,13 @@
   <section class="service_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container">
-        
         <h2>
+          
           Serviços Oferecidos
         </h2>
       </div>
       <p>
-    Nossa oficina oferece uma ampla gama de serviços de alta qualidade para garantir que seu veículo esteja sempre em excelentes condições de segurança e desempenho.
+        Nossa oficina oferece uma ampla gama de serviços de alta qualidade para garantir que seu veículo esteja sempre em excelentes condições de segurança e desempenho.
       </p>
       <div class="box">
         <div class="img-box">
@@ -712,7 +934,7 @@
       <div class="row">
         <div class="col-lg-4">
           <h6>
-           <a href="sistema.html"> Acesso do propietário </a>
+            Subscribe Now
           </h6>
           <p>
             There are many variations of passages of Lorem Ipsum available,

@@ -110,6 +110,47 @@ naver{
   text-transform: uppercase;
 
 }
+#divBusca{
+  background-color:#14213D;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:259px;
+  height:32px;
+
+  
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:195px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:60px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+
+.atribuidos{
+  background-color:#555555;
+  width: 500px;
+  height: 100%;
+}
+.mensagens{
+  background-color:#14213D;
+  display: inline-block;
+  padding:10px 10px 10px 10px;
+  margin:10px 0px 0px 10px;
+}
 
 .header_section .container-fluid {
   padding-right: 25px;
